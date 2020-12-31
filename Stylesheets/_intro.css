@@ -1,0 +1,12 @@
+.intro {
+    color: white;
+    background-color: #339FCD;
+    width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    height: 500px;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 150px;
+}

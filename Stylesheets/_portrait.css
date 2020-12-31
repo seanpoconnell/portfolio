@@ -1,0 +1,7 @@
+.portrait {
+    display: block;
+    background: url(../img/profilePic.PNG) no-repeat;
+    transition: 1s ease-in-out;
+    margin-left: auto;
+    margin-right: auto;
+}

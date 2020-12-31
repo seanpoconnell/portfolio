@@ -1,0 +1,44 @@
+.personalProjects {
+    height: 300px;
+    width: 500px;
+    border-radius: 7px;
+    object-fit: cover;
+}
+
+/* Parent Container */
+.project{
+    position: relative;
+   }
+   
+   /* Child Text Container */
+   .project div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: black;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 800;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+   }
+   
+   /* Hover on Parent Container */
+   .project:hover{
+    cursor: pointer;
+   }
+   
+   .project:hover div{
+    width: 500px;
+    height: 300px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+   }

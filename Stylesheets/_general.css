@@ -1,0 +1,13 @@
+.container1 {
+    width: 85vw;
+    margin: auto;
+    padding: 1.2rem;
+}
+
+html {
+    overflow-x: hidden;
+  }
+
+*{
+    font-family: 'Inter', sans-serif;
+}
