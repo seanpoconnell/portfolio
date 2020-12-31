@@ -1,12 +1,14 @@
-// Your web app's Firebase configuration
-var firebaseConfig = {
-    apiKey: "AIzaSyD1dSdq2-wgumt9RA5N6XTdtJfBbfsPsrA",
-    authDomain: "portfolio-a40fb.firebaseapp.com",
-    projectId: "portfolio-a40fb",
-    storageBucket: "portfolio-a40fb.appspot.com",
-    messagingSenderId: "1008576562948",
-    appId: "1:1008576562948:web:b8f1bce159d9814c0ab251"
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDcZSqsjYH7GIGSWvLP604Wqiz84MVMi40",
+    authDomain: "portfolio-b2659.firebaseapp.com",
+    databaseURL: "https://portfolio-b2659-default-rtdb.firebaseio.com",
+    projectId: "portfolio-b2659",
+    storageBucket: "portfolio-b2659.appspot.com",
+    messagingSenderId: "75081926636",
+    appId: "1:75081926636:web:26a5aec1ce3a0a719ee2c9"
   };
+  
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 
