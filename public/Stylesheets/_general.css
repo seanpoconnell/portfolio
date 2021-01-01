@@ -4,9 +4,15 @@
     padding: 1.2rem;
 }
 
-/* html {
+.container2 {
+    width: 75vw;
+    margin: auto;
+    padding: 1.2rem;
+}
+
+html {
     overflow-x: hidden;
-  } */
+}
 
 *{
     font-family: 'Inter', sans-serif;
