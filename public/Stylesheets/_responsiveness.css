@@ -1,15 +1,13 @@
-/* 
-@media (max-width: 1200px) {
+ 
+@media (max-width: 550px) {
     .portrait {
       width: 90vw;
     }
     .personalProjects {
-        width: 65vw;
-        height: auto;
+        width: 90vw;
+    }
+    .project:hover div{
+      width: 90vw;
     }
   }
-
-  .portfolio {
-      width: 85vw;
-      
-  } */
+}
