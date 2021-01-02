@@ -4,10 +4,13 @@
       width: 90vw;
     }
     .personalProjects {
-        width: 90vw;
+      width: 90vw;
     }
     .project:hover div{
       width: 90vw;
+    }
+    .intro {
+      height: 600px;;
     }
   }
 }
