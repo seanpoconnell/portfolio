@@ -1,5 +1,6 @@
 /* when mouse over chagne to coloured profile pic */
 .portrait {
+    width: 30vw;
     /* display: block;
     background: url(../img/profilePic.PNG) no-repeat;
     transition: 1s ease-in-out;
